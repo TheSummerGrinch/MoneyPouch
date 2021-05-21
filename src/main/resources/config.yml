@@ -72,6 +72,9 @@ pouches:
 # Rather than showing each digit left-to-right, reveal it right-to-left
 reverse-pouch-reveal: true
 
+# Allows shortening numbers if set to true (e.g. 1234 -> 1.2k, 123,123,123 -> 123.1M)
+shorten-numbers: false
+
 error-handling:
   # It is recommended you set the following to 'true' in a production environment
   # The plugin will log should a transaction fail for any reason, allowing you to investigate
